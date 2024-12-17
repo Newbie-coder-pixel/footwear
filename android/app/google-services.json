@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "865354838479",
+    "project_id": "footwear-c0e86",
+    "storage_bucket": "footwear-c0e86.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865354838479:android:a3acc9e093fa028c4ce2ba",
+        "android_client_info": {
+          "package_name": "com.example.footwear_admin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEtCITzhPeJx9AF9vN3A5g350To4s4wUw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865354838479:android:0f3aeedb635c94dd4ce2ba",
+        "android_client_info": {
+          "package_name": "com.example.footwear_client"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEtCITzhPeJx9AF9vN3A5g350To4s4wUw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

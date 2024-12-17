@@ -1,0 +1,40 @@
+android {
+    compileSdkVersion 33 // Sesuaikan dengan versi terbaru Flutter
+    ndkVersion "23.1.7779620" // Gunakan NDK yang sesuai dengan Flutter
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = "17"
+    }
+
+    defaultConfig {
+        applicationId "com.example.footwear_client"
+        minSdkVersion 21 // Gunakan versi minimum yang sesuai dengan kebutuhan Flutter
+        targetSdkVersion 33 // Sesuaikan dengan target SDK
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        debug {
+            shrinkResources false
+            minifyEnabled false
+        }
+        release {
+            shrinkResources true
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    namespace "com.example.footwear_client"
+}
+
+dependencies {
+    implementation "io.flutter:flutter_embedding_debug:1.0.0"
+    implementation "androidx.multidex:multidex:2.0.1" // Jika multiDex digunakan
+}
